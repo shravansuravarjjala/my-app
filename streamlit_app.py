@@ -50,7 +50,7 @@ def convert_outputs_to_pdb(outputs):
 pdb = convert_outputs_to_pdb(output)
 
 
-
+st.write(pdb)
 
 view = py3Dmol.view(js='https://3dmol.org/build/3Dmol.js', width=800, height=400)
 view.addModel("".join(pdb), 'pdb')
